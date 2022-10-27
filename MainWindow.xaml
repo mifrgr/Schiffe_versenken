@@ -1,0 +1,277 @@
+﻿<Window x:Class="Schiffe_versenken.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Schiffe_versenken"
+        mc:Ignorable="d"
+        Title="Schiffe versenken" Height="650" Width="1350">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="16" Grid.ColumnSpan="21">
+            <MenuItem Header="_Optionen" >
+                <MenuItem Name="SoundOption"  Header ="_Sound On" Click="MenuItem_Click" IsCheckable="True" IsChecked="True"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <StackPanel  Grid.Column="1">
+            <Label Content="A" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="2">
+            <Label Content="B" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="3">
+            <Label Content="C" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="4">
+            <Label Content="D" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="5">
+            <Label Content="E" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="6">
+            <Label Content="F" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="7">
+            <Label Content="G" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="8">
+            <Label Content="H" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="9">
+            <Label Content="I" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="10">
+            <Label Content="J" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Label Content="1"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Label Content="2"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="3">
+            <Label Content="3"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="4">
+            <Label Content="4"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="5">
+            <Label Content="5"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="6">
+            <Label Content="6"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="7">
+            <Label Content="7"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="8">
+            <Label Content="8"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="9">
+            <Label Content="9"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="10">
+            <Label Content="10"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        
+        <Button Grid.Column="1" Grid.Row="1" Name="A1" Content="" Background="White" Click="A1_Click" MouseRightButtonUp="A1_MouseRightButtonUp"></Button>
+        <Button Grid.Column="1" Grid.Row="2" Name="A2" Content="" Background="White" Click="A2_Click" MouseRightButtonUp="A2_MouseRightButtonUp"></Button>
+        <Button Grid.Column="1" Grid.Row="3" Name="A3" Content="" Background="White" Click="A3_Click" MouseRightButtonUp="A3_MouseRightButtonUp"></Button>
+        <Button Grid.Column="1" Grid.Row="4" Name="A4" Content="" Background="White" Click="A4_Click" MouseRightButtonUp="A4_MouseRightButtonUp"></Button>
+        <Button Grid.Column="1" Grid.Row="5" Name="A5" Content="" Background="White" Click="A5_Click" MouseRightButtonUp="A5_MouseRightButtonUp"></Button>
+        <Button Grid.Column="1" Grid.Row="6" Name="A6" Content="" Background="White" Click="A6_Click" MouseRightButtonUp="A6_MouseRightButtonUp"></Button>
+        <Button Grid.Column="1" Grid.Row="7" Name="A7" Content="" Background="White" Click="A7_Click" MouseRightButtonUp="A7_MouseRightButtonUp"></Button>
+        <Button Grid.Column="1" Grid.Row="8" Name="A8" Content="" Background="White" Click="A8_Click" MouseRightButtonUp="A8_MouseRightButtonUp"></Button>
+        <Button Grid.Column="1" Grid.Row="9" Name="A9" Content="" Background="White" Click="A9_Click" MouseRightButtonUp="A9_MouseRightButtonUp"></Button>
+        <Button Grid.Column="1" Grid.Row="10" Name="A10" Content="" Background="White" Click="A10_Click" MouseRightButtonUp="A10_MouseRightButtonUp"></Button>
+        <Button Grid.Column="2" Grid.Row="1" Name="B1" Content="" Background="White" Click="B1_Click" MouseRightButtonUp="B1_MouseRightButtonUp"></Button>
+        <Button Grid.Column="2" Grid.Row="2" Name="B2" Content="" Background="White" Click="B2_Click" MouseRightButtonUp="B2_MouseRightButtonUp"></Button>
+        <Button Grid.Column="2" Grid.Row="3" Name="B3" Content="" Background="White" Click="B3_Click" MouseRightButtonUp="B3_MouseRightButtonUp"></Button>
+        <Button Grid.Column="2" Grid.Row="4" Name="B4" Content="" Background="White" Click="B4_Click" MouseRightButtonUp="B4_MouseRightButtonUp"></Button>
+        <Button Grid.Column="2" Grid.Row="5" Name="B5" Content="" Background="White" Click="B5_Click" MouseRightButtonUp="B5_MouseRightButtonUp"></Button>
+        <Button Grid.Column="2" Grid.Row="6" Name="B6" Content="" Background="White" Click="B6_Click" MouseRightButtonUp="B6_MouseRightButtonUp"></Button>
+        <Button Grid.Column="2" Grid.Row="7" Name="B7" Content="" Background="White" Click="B7_Click" MouseRightButtonUp="B7_MouseRightButtonUp"></Button>
+        <Button Grid.Column="2" Grid.Row="8" Name="B8" Content="" Background="White" Click="B8_Click" MouseRightButtonUp="B8_MouseRightButtonUp"></Button>
+        <Button Grid.Column="2" Grid.Row="9" Name="B9" Content="" Background="White" Click="B9_Click" MouseRightButtonUp="B9_MouseRightButtonUp"></Button>
+        <Button Grid.Column="2" Grid.Row="10" Name="B10" Content="" Background="White" Click="B10_Click" MouseRightButtonUp="B10_MouseRightButtonUp"></Button>
+        <Button Grid.Column="3" Grid.Row="1" Name="C1" Content="" Background="White" Click="C1_Click" MouseRightButtonUp="C1_MouseRightButtonUp"></Button>
+        <Button Grid.Column="3" Grid.Row="2" Name="C2" Content="" Background="White" Click="C2_Click" MouseRightButtonUp="C2_MouseRightButtonUp"></Button>
+        <Button Grid.Column="3" Grid.Row="3" Name="C3" Content="" Background="White" Click="C3_Click" MouseRightButtonUp="C3_MouseRightButtonUp"></Button>
+        <Button Grid.Column="3" Grid.Row="4" Name="C4" Content="" Background="White" Click="C4_Click" MouseRightButtonUp="C4_MouseRightButtonUp"></Button>
+        <Button Grid.Column="3" Grid.Row="5" Name="C5" Content="" Background="White" Click="C5_Click" MouseRightButtonUp="C5_MouseRightButtonUp"></Button>
+        <Button Grid.Column="3" Grid.Row="6" Name="C6" Content="" Background="White" Click="C6_Click" MouseRightButtonUp="C6_MouseRightButtonUp"></Button>
+        <Button Grid.Column="3" Grid.Row="7" Name="C7" Content="" Background="White" Click="C7_Click" MouseRightButtonUp="C7_MouseRightButtonUp"></Button>
+        <Button Grid.Column="3" Grid.Row="8" Name="C8" Content="" Background="White" Click="C8_Click" MouseRightButtonUp="C8_MouseRightButtonUp"></Button>
+        <Button Grid.Column="3" Grid.Row="9" Name="C9" Content="" Background="White" Click="C9_Click" MouseRightButtonUp="C9_MouseRightButtonUp"></Button>
+        <Button Grid.Column="3" Grid.Row="10" Name="C10" Content="" Background="White" Click="C10_Click" MouseRightButtonUp="C10_MouseRightButtonUp"></Button>
+        <Button Grid.Column="4" Grid.Row="1" Name="D1" Content="" Background="White" Click="D1_Click" MouseRightButtonUp="D1_MouseRightButtonUp"></Button>
+        <Button Grid.Column="4" Grid.Row="2" Name="D2" Content="" Background="White" Click="D2_Click" MouseRightButtonUp="D2_MouseRightButtonUp"></Button>
+        <Button Grid.Column="4" Grid.Row="3" Name="D3" Content="" Background="White" Click="D3_Click" MouseRightButtonUp="D3_MouseRightButtonUp"></Button>
+        <Button Grid.Column="4" Grid.Row="4" Name="D4" Content="" Background="White" Click="D4_Click" MouseRightButtonUp="D4_MouseRightButtonUp"></Button>
+        <Button Grid.Column="4" Grid.Row="5" Name="D5" Content="" Background="White" Click="D5_Click" MouseRightButtonUp="D5_MouseRightButtonUp"></Button>
+        <Button Grid.Column="4" Grid.Row="6" Name="D6" Content="" Background="White" Click="D6_Click" MouseRightButtonUp="D6_MouseRightButtonUp"></Button>
+        <Button Grid.Column="4" Grid.Row="7" Name="D7" Content="" Background="White" Click="D7_Click" MouseRightButtonUp="D7_MouseRightButtonUp"></Button>
+        <Button Grid.Column="4" Grid.Row="8" Name="D8" Content="" Background="White" Click="D8_Click" MouseRightButtonUp="D8_MouseRightButtonUp"></Button>
+        <Button Grid.Column="4" Grid.Row="9" Name="D9" Content="" Background="White" Click="D9_Click" MouseRightButtonUp="D9_MouseRightButtonUp"></Button>
+        <Button Grid.Column="4" Grid.Row="10" Name="D10" Content="" Background="White" Click="D10_Click" MouseRightButtonUp="D10_MouseRightButtonUp"></Button>
+        <Button Grid.Column="5" Grid.Row="1" Name="E1" Content="" Background="White" Click="E1_Click" MouseRightButtonUp="E1_MouseRightButtonUp"></Button>
+        <Button Grid.Column="5" Grid.Row="2" Name="E2" Content="" Background="White" Click="E2_Click" MouseRightButtonUp="E2_MouseRightButtonUp"></Button>
+        <Button Grid.Column="5" Grid.Row="3" Name="E3" Content="" Background="White" Click="E3_Click" MouseRightButtonUp="E3_MouseRightButtonUp"></Button>
+        <Button Grid.Column="5" Grid.Row="4" Name="E4" Content="" Background="White" Click="E4_Click" MouseRightButtonUp="E4_MouseRightButtonUp"></Button>
+        <Button Grid.Column="5" Grid.Row="5" Name="E5" Content="" Background="White" Click="E5_Click" MouseRightButtonUp="E5_MouseRightButtonUp"></Button>
+        <Button Grid.Column="5" Grid.Row="6" Name="E6" Content="" Background="White" Click="E6_Click" MouseRightButtonUp="E6_MouseRightButtonUp"></Button>
+        <Button Grid.Column="5" Grid.Row="7" Name="E7" Content="" Background="White" Click="E7_Click" MouseRightButtonUp="E7_MouseRightButtonUp"></Button>
+        <Button Grid.Column="5" Grid.Row="8" Name="E8" Content="" Background="White" Click="E8_Click" MouseRightButtonUp="E8_MouseRightButtonUp"></Button>
+        <Button Grid.Column="5" Grid.Row="9" Name="E9" Content="" Background="White" Click="E9_Click" MouseRightButtonUp="E9_MouseRightButtonUp"></Button>
+        <Button Grid.Column="5" Grid.Row="10" Name="E10" Content="" Background="White" Click="E10_Click" MouseRightButtonUp="E10_MouseRightButtonUp"></Button>
+        <Button Grid.Column="6" Grid.Row="1" Name="F1" Content="" Background="White" Click="F1_Click" MouseRightButtonUp="F1_MouseRightButtonUp"></Button>
+        <Button Grid.Column="6" Grid.Row="2" Name="F2" Content="" Background="White" Click="F2_Click" MouseRightButtonUp="F2_MouseRightButtonUp"></Button>
+        <Button Grid.Column="6" Grid.Row="3" Name="F3" Content="" Background="White" Click="F3_Click" MouseRightButtonUp="F3_MouseRightButtonUp"></Button>
+        <Button Grid.Column="6" Grid.Row="4" Name="F4" Content="" Background="White" Click="F4_Click" MouseRightButtonUp="F4_MouseRightButtonUp"></Button>
+        <Button Grid.Column="6" Grid.Row="5" Name="F5" Content="" Background="White" Click="F5_Click" MouseRightButtonUp="F5_MouseRightButtonUp"></Button>
+        <Button Grid.Column="6" Grid.Row="6" Name="F6" Content="" Background="White" Click="F6_Click" MouseRightButtonUp="F6_MouseRightButtonUp"></Button>
+        <Button Grid.Column="6" Grid.Row="7" Name="F7" Content="" Background="White" Click="F7_Click" MouseRightButtonUp="F7_MouseRightButtonUp"></Button>
+        <Button Grid.Column="6" Grid.Row="8" Name="F8" Content="" Background="White" Click="F8_Click" MouseRightButtonUp="F8_MouseRightButtonUp"></Button>
+        <Button Grid.Column="6" Grid.Row="9" Name="F9" Content="" Background="White" Click="F9_Click" MouseRightButtonUp="F9_MouseRightButtonUp"></Button>
+        <Button Grid.Column="6" Grid.Row="10" Name="F10" Content="" Background="White" Click="F10_Click" MouseRightButtonUp="F10_MouseRightButtonUp"></Button>
+        <Button Grid.Column="7" Grid.Row="1" Name="G1" Content="" Background="White" Click="G1_Click" MouseRightButtonUp="G1_MouseRightButtonUp"></Button>
+        <Button Grid.Column="7" Grid.Row="2" Name="G2" Content="" Background="White" Click="G2_Click" MouseRightButtonUp="G2_MouseRightButtonUp"></Button>
+        <Button Grid.Column="7" Grid.Row="3" Name="G3" Content="" Background="White" Click="G3_Click" MouseRightButtonUp="G3_MouseRightButtonUp"></Button>
+        <Button Grid.Column="7" Grid.Row="4" Name="G4" Content="" Background="White" Click="G4_Click" MouseRightButtonUp="G4_MouseRightButtonUp"></Button>
+        <Button Grid.Column="7" Grid.Row="5" Name="G5" Content="" Background="White" Click="G5_Click" MouseRightButtonUp="G5_MouseRightButtonUp"></Button>
+        <Button Grid.Column="7" Grid.Row="6" Name="G6" Content="" Background="White" Click="G6_Click" MouseRightButtonUp="G6_MouseRightButtonUp"></Button>
+        <Button Grid.Column="7" Grid.Row="7" Name="G7" Content="" Background="White" Click="G7_Click" MouseRightButtonUp="G7_MouseRightButtonUp"></Button>
+        <Button Grid.Column="7" Grid.Row="8" Name="G8" Content="" Background="White" Click="G8_Click" MouseRightButtonUp="G8_MouseRightButtonUp"></Button>
+        <Button Grid.Column="7" Grid.Row="9" Name="G9" Content="" Background="White" Click="G9_Click" MouseRightButtonUp="G9_MouseRightButtonUp"></Button>
+        <Button Grid.Column="7" Grid.Row="10" Name="G10" Content="" Background="White" Click="G10_Click" MouseRightButtonUp="G10_MouseRightButtonUp"></Button>
+        <Button Grid.Column="8" Grid.Row="1" Name="H1" Content="" Background="White" Click="H1_Click" MouseRightButtonUp="H1_MouseRightButtonUp"></Button>
+        <Button Grid.Column="8" Grid.Row="2" Name="H2" Content="" Background="White" Click="H2_Click" MouseRightButtonUp="H2_MouseRightButtonUp"></Button>
+        <Button Grid.Column="8" Grid.Row="3" Name="H3" Content="" Background="White" Click="H3_Click" MouseRightButtonUp="H3_MouseRightButtonUp"></Button>
+        <Button Grid.Column="8" Grid.Row="4" Name="H4" Content="" Background="White" Click="H4_Click" MouseRightButtonUp="H4_MouseRightButtonUp"></Button>
+        <Button Grid.Column="8" Grid.Row="5" Name="H5" Content="" Background="White" Click="H5_Click" MouseRightButtonUp="H5_MouseRightButtonUp"></Button>
+        <Button Grid.Column="8" Grid.Row="6" Name="H6" Content="" Background="White" Click="H6_Click" MouseRightButtonUp="H6_MouseRightButtonUp"></Button>
+        <Button Grid.Column="8" Grid.Row="7" Name="H7" Content="" Background="White" Click="H7_Click" MouseRightButtonUp="H7_MouseRightButtonUp"></Button>
+        <Button Grid.Column="8" Grid.Row="8" Name="H8" Content="" Background="White" Click="H8_Click" MouseRightButtonUp="H8_MouseRightButtonUp"></Button>
+        <Button Grid.Column="8" Grid.Row="9" Name="H9" Content="" Background="White" Click="H9_Click" MouseRightButtonUp="H9_MouseRightButtonUp"></Button>
+        <Button Grid.Column="8" Grid.Row="10" Name="H10" Content="" Background="White" Click="H10_Click" MouseRightButtonUp="H10_MouseRightButtonUp"></Button>
+        <Button Grid.Column="9" Grid.Row="1" Name="I1" Content="" Background="White" Click="I1_Click" MouseRightButtonUp="I1_MouseRightButtonUp"></Button>
+        <Button Grid.Column="9" Grid.Row="2" Name="I2" Content="" Background="White" Click="I2_Click" MouseRightButtonUp="I2_MouseRightButtonUp"></Button>
+        <Button Grid.Column="9" Grid.Row="3" Name="I3" Content="" Background="White" Click="I3_Click" MouseRightButtonUp="I3_MouseRightButtonUp"></Button>
+        <Button Grid.Column="9" Grid.Row="4" Name="I4" Content="" Background="White" Click="I4_Click" MouseRightButtonUp="I4_MouseRightButtonUp"></Button>
+        <Button Grid.Column="9" Grid.Row="5" Name="I5" Content="" Background="White" Click="I5_Click" MouseRightButtonUp="I5_MouseRightButtonUp"></Button>
+        <Button Grid.Column="9" Grid.Row="6" Name="I6" Content="" Background="White" Click="I6_Click" MouseRightButtonUp="I6_MouseRightButtonUp"></Button>
+        <Button Grid.Column="9" Grid.Row="7" Name="I7" Content="" Background="White" Click="I7_Click" MouseRightButtonUp="I7_MouseRightButtonUp"></Button>
+        <Button Grid.Column="9" Grid.Row="8" Name="I8" Content="" Background="White" Click="I8_Click" MouseRightButtonUp="I8_MouseRightButtonUp"></Button>
+        <Button Grid.Column="9" Grid.Row="9" Name="I9" Content="" Background="White" Click="I9_Click" MouseRightButtonUp="I9_MouseRightButtonUp"></Button>
+        <Button Grid.Column="9" Grid.Row="10" Name="I10" Content="" Background="White" Click="I10_Click" MouseRightButtonUp="I10_MouseRightButtonUp"></Button>
+        <Button Grid.Column="10" Grid.Row="1" Name="J1" Content="" Background="White" Click="J1_Click" MouseRightButtonUp="J1_MouseRightButtonUp"></Button>
+        <Button Grid.Column="10" Grid.Row="2" Name="J2" Content="" Background="White" Click="J2_Click" MouseRightButtonUp="J2_MouseRightButtonUp"></Button>
+        <Button Grid.Column="10" Grid.Row="3" Name="J3" Content="" Background="White" Click="J3_Click" MouseRightButtonUp="J3_MouseRightButtonUp"></Button>
+        <Button Grid.Column="10" Grid.Row="4" Name="J4" Content="" Background="White" Click="J4_Click" MouseRightButtonUp="J4_MouseRightButtonUp"></Button>
+        <Button Grid.Column="10" Grid.Row="5" Name="J5" Content="" Background="White" Click="J5_Click" MouseRightButtonUp="J5_MouseRightButtonUp"></Button>
+        <Button Grid.Column="10" Grid.Row="6" Name="J6" Content="" Background="White" Click="J6_Click" MouseRightButtonUp="J6_MouseRightButtonUp"></Button>
+        <Button Grid.Column="10" Grid.Row="7" Name="J7" Content="" Background="White" Click="J7_Click" MouseRightButtonUp="J7_MouseRightButtonUp"></Button>
+        <Button Grid.Column="10" Grid.Row="8" Name="J8" Content="" Background="White" Click="J8_Click" MouseRightButtonUp="J8_MouseRightButtonUp"></Button>
+        <Button Grid.Column="10" Grid.Row="9" Name="J9" Content="" Background="White" Click="J9_Click" MouseRightButtonUp="J9_MouseRightButtonUp"></Button>
+        <Button Grid.Column="10" Grid.Row="10" Name="J10" Content="" Background="White" Click="J10_Click" MouseRightButtonUp="J10_MouseRightButtonUp"></Button>
+        
+        
+        <Button Grid.Column="12" Grid.Row="1" Name="Start" Content="Start" Click="Start_Click" ></Button>
+        <Button Grid.Column="12" Grid.Row="3" Name="Delete" Content="Neu Setzen" ></Button>
+ 
+        <Label Grid.Row="1" Grid.Column="14" Grid.ColumnSpan="5" Content="Flugzeugträger" FontSize="17" ></Label>
+        <TextBlock Grid.Row="2" Grid.Column="14" Name="ACS1" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="15" Name="ACS2" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="16" Name="ACS3" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="17" Name="ACS4" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="18" Name="ACS5" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <Button Grid.Row="1" Grid.Column="17"  Name="AircraftCarrierSet" Content="Auswählen" Click="AircraftCarrierSet_Click"></Button>
+        <Button Grid.Row="1" Grid.Column="19" Name="AircraftCarrierSetAbort" Content="Löschen" Click="AircraftCarrierSetAbort_Click" ></Button>
+
+        <Label Grid.Row="3" Grid.Column="14" Grid.ColumnSpan="5" Content="Kreuzer" FontSize="17" ></Label>
+        <TextBlock Grid.Row="4" Grid.Column="14" Name="Cr1_1" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="15" Name="Cr1_2" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="16" Name="Cr1_3" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="17" Name="Cr1_4" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        
+        <TextBlock Grid.Row="5" Grid.Column="14" Name="Cr2_1" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="5" Grid.Column="15" Name="Cr2_2" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="5" Grid.Column="16" Name="Cr2_3" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="5" Grid.Column="17" Name="Cr2_4" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <Button Grid.Row="3" Grid.Column="17"  Name="CruiserSet" Content="Auswählen" Click="CruiserSet_Click" ></Button>
+        <Button Grid.Row="3" Grid.Column="19" Name="CruiserSetAbort" Content="Löschen" Click="CruiserSetAbort_Click"  ></Button>
+
+        <Label Grid.Row="6" Grid.Column="14" Grid.ColumnSpan="5" Content="Zerstörer" FontSize="17" ></Label>
+        <TextBlock Grid.Row="7" Grid.Column="14" Name="Des1_1" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="15" Name="Des1_2" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="16" Name="Des1_3" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+
+        <TextBlock Grid.Row="8" Grid.Column="14" Name="Des2_1" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="8" Grid.Column="15" Name="Des2_2" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="8" Grid.Column="16" Name="Des2_3" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+
+        <TextBlock Grid.Row="9" Grid.Column="14" Name="Des3_1" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="9" Grid.Column="15" Name="Des3_2" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="9" Grid.Column="16" Name="Des3_3" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <Button Grid.Row="6" Grid.Column="17"  Name="DestroyerSet" Content="Auswählen" Click="DestroyerSet_Click"  ></Button>
+        <Button Grid.Row="6" Grid.Column="19" Name="DestroyerSetAbort" Content="Löschen" Click="DestroyerSetAbort_Click" ></Button>
+
+        <Label Grid.Row="10" Grid.Column="14" Grid.ColumnSpan="5" Content="U-Boot" FontSize="17" ></Label>
+        <TextBlock Grid.Row="11" Grid.Column="14" Name="Ub1_1" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="11" Grid.Column="15" Name="Ub1_2" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+
+        <TextBlock Grid.Row="12" Grid.Column="14" Name="Ub2_1" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="12" Grid.Column="15" Name="Ub2_2" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+
+        <TextBlock Grid.Row="13" Grid.Column="14" Name="Ub3_1" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="13" Grid.Column="15" Name="Ub3_2" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+
+        <TextBlock Grid.Row="14" Grid.Column="14" Name="Ub4_1" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <TextBlock Grid.Row="14" Grid.Column="15" Name="Ub4_2" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Visibility="Visible" ></TextBlock>
+        <Button Grid.Row="10" Grid.Column="17"  Name="UbootSet" Content="Auswählen" Click="UbootSet_Click" ></Button>
+        <Button Grid.Row="10" Grid.Column="19" Name="UbootSetAbort" Content="Löschen" Click="UbootSetAbort_Click" ></Button>
+    </Grid>
+</Window>

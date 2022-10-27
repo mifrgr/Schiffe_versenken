@@ -1,0 +1,202 @@
+﻿<Window x:Class="Schiffe_versenken.EnemyField"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Schiffe_versenken"
+        mc:Ignorable="d"
+        Title="EnemyField" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="1">
+            <Label Content="A" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="2">
+            <Label Content="B" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="3">
+            <Label Content="C" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="4">
+            <Label Content="D" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="5">
+            <Label Content="E" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="6">
+            <Label Content="F" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="7">
+            <Label Content="G" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="8">
+            <Label Content="H" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="9">
+            <Label Content="I" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Column="10">
+            <Label Content="J" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Label Content="1"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Label Content="2"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="3">
+            <Label Content="3"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="4">
+            <Label Content="4"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="5">
+            <Label Content="5"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="6">
+            <Label Content="6"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="7">
+            <Label Content="7"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="8">
+            <Label Content="8"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="9">
+            <Label Content="9"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="10">
+            <Label Content="10"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <Button Grid.Column="1" Grid.Row="1" Name="Enemy_A1" Content="" Background="White" Click="Enemy_A1_Click" ></Button>
+        <Button Grid.Column="1" Grid.Row="2" Name="Enemy_A2" Content="" Background="White" Click="Enemy_A2_Click" ></Button>
+        <Button Grid.Column="1" Grid.Row="3" Name="Enemy_A3" Content="" Background="White" Click="Enemy_A3_Click" ></Button>
+        <Button Grid.Column="1" Grid.Row="4" Name="Enemy_A4" Content="" Background="White" Click="Enemy_A4_Click" ></Button>
+        <Button Grid.Column="1" Grid.Row="5" Name="Enemy_A5" Content="" Background="White" Click="Enemy_A5_Click" ></Button>
+        <Button Grid.Column="1" Grid.Row="6" Name="Enemy_A6" Content="" Background="White" Click="Enemy_A6_Click" ></Button>
+        <Button Grid.Column="1" Grid.Row="7" Name="Enemy_A7" Content="" Background="White" Click="Enemy_A7_Click" ></Button>
+        <Button Grid.Column="1" Grid.Row="8" Name="Enemy_A8" Content="" Background="White" Click="Enemy_A8_Click" ></Button>
+        <Button Grid.Column="1" Grid.Row="9" Name="Enemy_A9" Content="" Background="White" Click="Enemy_A9_Click" ></Button>
+        <Button Grid.Column="1" Grid.Row="10" Name="Enemy_A10" Content="" Background="White" Click="Enemy_A10_Click" ></Button>
+        <Button Grid.Column="2" Grid.Row="1" Name="Enemy_B1" Content="" Background="White" Click="Enemy_B1_Click" ></Button>
+        <Button Grid.Column="2" Grid.Row="2" Name="Enemy_B2" Content="" Background="White" Click="Enemy_B2_Click" ></Button>
+        <Button Grid.Column="2" Grid.Row="3" Name="Enemy_B3" Content="" Background="White" Click="Enemy_B3_Click" ></Button>
+        <Button Grid.Column="2" Grid.Row="4" Name="Enemy_B4" Content="" Background="White" Click="Enemy_B4_Click" ></Button>
+        <Button Grid.Column="2" Grid.Row="5" Name="Enemy_B5" Content="" Background="White" Click="Enemy_B5_Click" ></Button>
+        <Button Grid.Column="2" Grid.Row="6" Name="Enemy_B6" Content="" Background="White" Click="Enemy_B6_Click" ></Button>
+        <Button Grid.Column="2" Grid.Row="7" Name="Enemy_B7" Content="" Background="White" Click="Enemy_B7_Click" ></Button>
+        <Button Grid.Column="2" Grid.Row="8" Name="Enemy_B8" Content="" Background="White" Click="Enemy_B8_Click" ></Button>
+        <Button Grid.Column="2" Grid.Row="9" Name="Enemy_B9" Content="" Background="White" Click="Enemy_B9_Click" ></Button>
+        <Button Grid.Column="2" Grid.Row="10" Name="Enemy_B10" Content="" Background="White" Click="Enemy_B10_Click" ></Button>
+        <Button Grid.Column="3" Grid.Row="1" Name="Enemy_C1" Content="" Background="White" Click="Enemy_C1_Click" ></Button>
+        <Button Grid.Column="3" Grid.Row="2" Name="Enemy_C2" Content="" Background="White" Click="Enemy_C2_Click" ></Button>
+        <Button Grid.Column="3" Grid.Row="3" Name="Enemy_C3" Content="" Background="White" Click="Enemy_C3_Click" ></Button>
+        <Button Grid.Column="3" Grid.Row="4" Name="Enemy_C4" Content="" Background="White" Click="Enemy_C4_Click" ></Button>
+        <Button Grid.Column="3" Grid.Row="5" Name="Enemy_C5" Content="" Background="White" Click="Enemy_C5_Click" ></Button>
+        <Button Grid.Column="3" Grid.Row="6" Name="Enemy_C6" Content="" Background="White" Click="Enemy_C6_Click" ></Button>
+        <Button Grid.Column="3" Grid.Row="7" Name="Enemy_C7" Content="" Background="White" Click="Enemy_C7_Click" ></Button>
+        <Button Grid.Column="3" Grid.Row="8" Name="Enemy_C8" Content="" Background="White" Click="Enemy_C8_Click" ></Button>
+        <Button Grid.Column="3" Grid.Row="9" Name="Enemy_C9" Content="" Background="White" Click="Enemy_C9_Click" ></Button>
+        <Button Grid.Column="3" Grid.Row="10" Name="Enemy_C10" Content="" Background="White" Click="Enemy_C10_Click" ></Button>
+        <Button Grid.Column="4" Grid.Row="1" Name="Enemy_D1" Content="" Background="White" Click="Enemy_D1_Click" ></Button>
+        <Button Grid.Column="4" Grid.Row="2" Name="Enemy_D2" Content="" Background="White" Click="Enemy_D2_Click" ></Button>
+        <Button Grid.Column="4" Grid.Row="3" Name="Enemy_D3" Content="" Background="White" Click="Enemy_D3_Click" ></Button>
+        <Button Grid.Column="4" Grid.Row="4" Name="Enemy_D4" Content="" Background="White" Click="Enemy_D4_Click" ></Button>
+        <Button Grid.Column="4" Grid.Row="5" Name="Enemy_D5" Content="" Background="White" Click="Enemy_D5_Click" ></Button>
+        <Button Grid.Column="4" Grid.Row="6" Name="Enemy_D6" Content="" Background="White" Click="Enemy_D6_Click" ></Button>
+        <Button Grid.Column="4" Grid.Row="7" Name="Enemy_D7" Content="" Background="White" Click="Enemy_D7_Click" ></Button>
+        <Button Grid.Column="4" Grid.Row="8" Name="Enemy_D8" Content="" Background="White" Click="Enemy_D8_Click" ></Button>
+        <Button Grid.Column="4" Grid.Row="9" Name="Enemy_D9" Content="" Background="White" Click="Enemy_D9_Click" ></Button>
+        <Button Grid.Column="4" Grid.Row="10" Name="Enemy_D10" Content="" Background="White" Click="Enemy_D10_Click" ></Button>
+        <Button Grid.Column="5" Grid.Row="1" Name="Enemy_E1" Content="" Background="White" Click="Enemy_E1_Click" ></Button>
+        <Button Grid.Column="5" Grid.Row="2" Name="Enemy_E2" Content="" Background="White" Click="Enemy_E2_Click" ></Button>
+        <Button Grid.Column="5" Grid.Row="3" Name="Enemy_E3" Content="" Background="White" Click="Enemy_E3_Click" ></Button>
+        <Button Grid.Column="5" Grid.Row="4" Name="Enemy_E4" Content="" Background="White" Click="Enemy_E4_Click" ></Button>
+        <Button Grid.Column="5" Grid.Row="5" Name="Enemy_E5" Content="" Background="White" Click="Enemy_E5_Click" ></Button>
+        <Button Grid.Column="5" Grid.Row="6" Name="Enemy_E6" Content="" Background="White" Click="Enemy_E6_Click" ></Button>
+        <Button Grid.Column="5" Grid.Row="7" Name="Enemy_E7" Content="" Background="White" Click="Enemy_E7_Click" ></Button>
+        <Button Grid.Column="5" Grid.Row="8" Name="Enemy_E8" Content="" Background="White" Click="Enemy_E8_Click" ></Button>
+        <Button Grid.Column="5" Grid.Row="9" Name="Enemy_E9" Content="" Background="White" Click="Enemy_E9_Click" ></Button>
+        <Button Grid.Column="5" Grid.Row="10" Name="Enemy_E10" Content="" Background="White" Click="Enemy_E10_Click" ></Button>
+        <Button Grid.Column="6" Grid.Row="1" Name="Enemy_F1" Content="" Background="White" Click="Enemy_F1_Click" ></Button>
+        <Button Grid.Column="6" Grid.Row="2" Name="Enemy_F2" Content="" Background="White" Click="Enemy_F2_Click" ></Button>
+        <Button Grid.Column="6" Grid.Row="3" Name="Enemy_F3" Content="" Background="White" Click="Enemy_F3_Click" ></Button>
+        <Button Grid.Column="6" Grid.Row="4" Name="Enemy_F4" Content="" Background="White" Click="Enemy_F4_Click" ></Button>
+        <Button Grid.Column="6" Grid.Row="5" Name="Enemy_F5" Content="" Background="White" Click="Enemy_F5_Click" ></Button>
+        <Button Grid.Column="6" Grid.Row="6" Name="Enemy_F6" Content="" Background="White" Click="Enemy_F6_Click" ></Button>
+        <Button Grid.Column="6" Grid.Row="7" Name="Enemy_F7" Content="" Background="White" Click="Enemy_F7_Click" ></Button>
+        <Button Grid.Column="6" Grid.Row="8" Name="Enemy_F8" Content="" Background="White" Click="Enemy_F8_Click" ></Button>
+        <Button Grid.Column="6" Grid.Row="9" Name="Enemy_F9" Content="" Background="White" Click="Enemy_F9_Click" ></Button>
+        <Button Grid.Column="6" Grid.Row="10" Name="Enemy_F10" Content="" Background="White" Click="Enemy_F10_Click" ></Button>
+        <Button Grid.Column="7" Grid.Row="1" Name="Enemy_G1" Content="" Background="White" Click="Enemy_G1_Click" ></Button>
+        <Button Grid.Column="7" Grid.Row="2" Name="Enemy_G2" Content="" Background="White" Click="Enemy_G2_Click" ></Button>
+        <Button Grid.Column="7" Grid.Row="3" Name="Enemy_G3" Content="" Background="White" Click="Enemy_G3_Click" ></Button>
+        <Button Grid.Column="7" Grid.Row="4" Name="Enemy_G4" Content="" Background="White" Click="Enemy_G4_Click" ></Button>
+        <Button Grid.Column="7" Grid.Row="5" Name="Enemy_G5" Content="" Background="White" Click="Enemy_G5_Click" ></Button>
+        <Button Grid.Column="7" Grid.Row="6" Name="Enemy_G6" Content="" Background="White" Click="Enemy_G6_Click" ></Button>
+        <Button Grid.Column="7" Grid.Row="7" Name="Enemy_G7" Content="" Background="White" Click="Enemy_G7_Click" ></Button>
+        <Button Grid.Column="7" Grid.Row="8" Name="Enemy_G8" Content="" Background="White" Click="Enemy_G8_Click" ></Button>
+        <Button Grid.Column="7" Grid.Row="9" Name="Enemy_G9" Content="" Background="White" Click="Enemy_G9_Click" ></Button>
+        <Button Grid.Column="7" Grid.Row="10" Name="Enemy_G10" Content="" Background="White" Click="Enemy_G10_Click" ></Button>
+        <Button Grid.Column="8" Grid.Row="1" Name="Enemy_H1" Content="" Background="White" Click="Enemy_H1_Click" ></Button>
+        <Button Grid.Column="8" Grid.Row="2" Name="Enemy_H2" Content="" Background="White" Click="Enemy_H2_Click" ></Button>
+        <Button Grid.Column="8" Grid.Row="3" Name="Enemy_H3" Content="" Background="White" Click="Enemy_H3_Click" ></Button>
+        <Button Grid.Column="8" Grid.Row="4" Name="Enemy_H4" Content="" Background="White" Click="Enemy_H4_Click" ></Button>
+        <Button Grid.Column="8" Grid.Row="5" Name="Enemy_H5" Content="" Background="White" Click="Enemy_H5_Click" ></Button>
+        <Button Grid.Column="8" Grid.Row="6" Name="Enemy_H6" Content="" Background="White" Click="Enemy_H6_Click" ></Button>
+        <Button Grid.Column="8" Grid.Row="7" Name="Enemy_H7" Content="" Background="White" Click="Enemy_H7_Click" ></Button>
+        <Button Grid.Column="8" Grid.Row="8" Name="Enemy_H8" Content="" Background="White" Click="Enemy_H8_Click" ></Button>
+        <Button Grid.Column="8" Grid.Row="9" Name="Enemy_H9" Content="" Background="White" Click="Enemy_H9_Click" ></Button>
+        <Button Grid.Column="8" Grid.Row="10" Name="Enemy_H10" Content="" Background="White" Click="Enemy_H10_Click" ></Button>
+        <Button Grid.Column="9" Grid.Row="1" Name="Enemy_I1" Content="" Background="White" Click="Enemy_I1_Click" ></Button>
+        <Button Grid.Column="9" Grid.Row="2" Name="Enemy_I2" Content="" Background="White" Click="Enemy_I2_Click" ></Button>
+        <Button Grid.Column="9" Grid.Row="3" Name="Enemy_I3" Content="" Background="White" Click="Enemy_I3_Click" ></Button>
+        <Button Grid.Column="9" Grid.Row="4" Name="Enemy_I4" Content="" Background="White" Click="Enemy_I4_Click" ></Button>
+        <Button Grid.Column="9" Grid.Row="5" Name="Enemy_I5" Content="" Background="White" Click="Enemy_I5_Click" ></Button>
+        <Button Grid.Column="9" Grid.Row="6" Name="Enemy_I6" Content="" Background="White" Click="Enemy_I6_Click" ></Button>
+        <Button Grid.Column="9" Grid.Row="7" Name="Enemy_I7" Content="" Background="White" Click="Enemy_I7_Click" ></Button>
+        <Button Grid.Column="9" Grid.Row="8" Name="Enemy_I8" Content="" Background="White" Click="Enemy_I8_Click" ></Button>
+        <Button Grid.Column="9" Grid.Row="9" Name="Enemy_I9" Content="" Background="White" Click="Enemy_I9_Click" ></Button>
+        <Button Grid.Column="9" Grid.Row="10" Name="Enemy_I10" Content="" Background="White" Click="Enemy_I10_Click" ></Button>
+        <Button Grid.Column="10" Grid.Row="1" Name="Enemy_J1" Content="" Background="White" Click="Enemy_J1_Click" ></Button>
+        <Button Grid.Column="10" Grid.Row="2" Name="Enemy_J2" Content="" Background="White" Click="Enemy_J2_Click" ></Button>
+        <Button Grid.Column="10" Grid.Row="3" Name="Enemy_J3" Content="" Background="White" Click="Enemy_J3_Click" ></Button>
+        <Button Grid.Column="10" Grid.Row="4" Name="Enemy_J4" Content="" Background="White" Click="Enemy_J4_Click" ></Button>
+        <Button Grid.Column="10" Grid.Row="5" Name="Enemy_J5" Content="" Background="White" Click="Enemy_J5_Click" ></Button>
+        <Button Grid.Column="10" Grid.Row="6" Name="Enemy_J6" Content="" Background="White" Click="Enemy_J6_Click" ></Button>
+        <Button Grid.Column="10" Grid.Row="7" Name="Enemy_J7" Content="" Background="White" Click="Enemy_J7_Click" ></Button>
+        <Button Grid.Column="10" Grid.Row="8" Name="Enemy_J8" Content="" Background="White" Click="Enemy_J8_Click" ></Button>
+        <Button Grid.Column="10" Grid.Row="9" Name="Enemy_J9" Content="" Background="White" Click="Enemy_J9_Click" ></Button>
+        <Button Grid.Column="10" Grid.Row="10" Name="Enemy_J10" Content="" Background="White" Click="Enemy_J10_Click" ></Button>
+
+    </Grid>
+</Window>
